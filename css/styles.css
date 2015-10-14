@@ -1,0 +1,171 @@
+
+html {
+  position: relative;
+  min-height: 100%;
+  font-family: sans-serif;
+  }
+
+body {
+  margin-bottom: 60px;
+
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  font-family: 'Lobster', Georgia, Times, serif;
+  font-size: 30px;
+}
+
+body > .container {
+  padding: 60px 15px 0;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+p.intro {
+    font-size: 20px;
+    font-size: 2.4rem;
+  }
+
+p.text {
+    font-size: 20px;
+    font-size: 2.4rem;
+}
+
+.row {
+	padding-bottom: 25px;
+}
+
+/* this is for the thumbnail images */
+.crop-img{
+  max-height:150px;
+  max-width:100%;
+}
+
+/* this is for the big main image */
+.large-img{
+  max-width:100%;
+}
+
+.ulnice
+{
+    padding-right: 50px;
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100%; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+    font-family: 'Marvel', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+}
+
+h3 {
+    font-family: 'Marvel', sans-serif;
+    font-weight: 300;
+    font-size: 40px;
+}
+
+.jumbotron {
+  padding-top: 30px;
+
+}
+.jumbotron h1,
+.jumbotron .h1 {
+  color: inherit;
+}
+.jumbotron p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.jumbotron > hr {
+  border-top-color: #00ccad;
+}
+.container .jumbotron,
+.container-fluid .jumbotron {
+  border-radius: 6px;
+}
+.jumbotron .container {
+  max-width: 100%;
+}
+
+p {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+article {
+    font-family: 'Cabin', Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+h1 {
+    font-family: 'Lobster', Georgia, Times, serif;
+    font-size: 70px;
+    line-height: 100px;
+}
+
+.navbar-default {
+    font-size: 30px;
+}
+
+.navbar-default a:hover{
+font-weight: bolder;
+text-decoration:none;
+}
+
+.pre {
+    font-size: 10px;
+}
+
+.jumbotron {
+  color: white;
+  text-shadow: black 0.3em 0.3em 0.3em;
+  background: url('../img/marvel-cartoon.png') ;
+}
+
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
+@media all and (max-width: 600px) {
+    .hideonmobile {
+        display: none;
+    }
+}
